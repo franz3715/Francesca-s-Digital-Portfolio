@@ -15,6 +15,7 @@ import satoru from "../assets/img/Satoru.png";
 import suguru from "../assets/img/Suguru.png";
 import contempt from "../assets/img/Contempt.png";
 import { ExperimentCard } from "./ExperimentCard";
+import { ProjectCard2 } from "./ProjectCard2";
 
 export const Projects = () => {
 
@@ -126,7 +127,7 @@ export const Projects = () => {
                           project2.map((project) => {
                             return (
                               <Col key={project2.id} xs={12} className="mb-4">
-                                <ProjectCard {...project} />
+                                <ProjectCard2 {...project} />
                               </Col>
                             )
                           })

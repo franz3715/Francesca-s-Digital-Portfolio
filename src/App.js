@@ -6,8 +6,6 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { Routes, Route } from 'react-router-dom';
-import ActivityClassifier from './components/projects/ActivityClassifier';
-import MealPlanningApp from './components/projects/MealPlanningApp';
 
 function App() {
   return (
@@ -24,8 +22,6 @@ function App() {
             </>
           }
         />
-          <Route path="/projects/activity-classifier" element={<ActivityClassifier />} />
-          <Route path="/projects/meal-planner" element={<MealPlanningApp />} />
       </Routes>
      <Footer />
     </div>
