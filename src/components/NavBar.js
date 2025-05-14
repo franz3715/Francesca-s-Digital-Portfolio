@@ -49,13 +49,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#!"><img src={navIcon1} alt="lkdln" /></a>
-                <a href="#!"><img src={navIcon2} alt="fb" /></a>
-                <a href="#!"><img src={navIcon4} alt="git" /></a>
+                <a href="https://www.linkedin.com/in/francesca-adaobi-emeka-joseph-92b016205"><img src={navIcon1} alt="lkdln" /></a>
+                <a href="mailto:francescaadaobiemeka@gmail.com"><img src={navIcon2} alt="email" /></a>
+                <a href="https://github.com/franz3715"><img src={navIcon4} alt="git" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

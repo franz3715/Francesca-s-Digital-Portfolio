@@ -1,5 +1,5 @@
 import './MealPlanningApp.css';
-import img from '../../assets/img/UI-pic2plate.png';
+import img from '../../assets/img/UI-Pic2Plate.png';
 
 export default function ActivityClassifier() {
   return (
