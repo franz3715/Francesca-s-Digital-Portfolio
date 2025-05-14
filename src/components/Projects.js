@@ -10,7 +10,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Donut from "./Donut";
-import MagicCursor from "./MagicCursor";
 import ruby from "../assets/img/Ruby-Poster.png";
 import satoru from "../assets/img/Satoru.png";
 import suguru from "../assets/img/Suguru.png";
@@ -136,7 +135,6 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Some things that I've created</p>
-                      <MagicCursor />
                       <Row className="mt-4">
                         {experiments.map((exp) => (
                           <Col key={exp.id} xs={12} className="mb-4">
