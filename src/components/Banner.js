@@ -38,7 +38,7 @@ export const Banner = () => {
 
     const ticker = setInterval(tick, delta);
     return () => clearInterval(ticker);
-  }, [ttext, delta, isDeleting, loopNum, toRotate, period]);
+  }, [text, delta, isDeleting, loopNum, toRotate, period]);
 
   
  return (
