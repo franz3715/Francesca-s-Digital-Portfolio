@@ -6,9 +6,6 @@ import Carousel from 'react-multi-carousel';
 import sqllogo from "../assets/img/sql-icon-logo.png";
 import htmlcssjslogo from "../assets/img/html-css-js-logo.png";
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {

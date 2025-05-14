@@ -3,11 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import appa from '../assets/img/appa.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/email-icon.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
-import { HashLink } from 'react-router-hash-link';
-import React, { useRef } from 'react';
-
 
 export const NavBar = () => {
 
