@@ -11,11 +11,16 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Donut from "./Donut";
 import ruby from "../assets/img/Ruby-Poster.png";
+import chufei from "../assets/img/chufei.png";
 import satoru from "../assets/img/Satoru.png";
 import suguru from "../assets/img/Suguru.png";
+import travis from "../assets/img/travis.png";
 import contempt from "../assets/img/Contempt.png";
+import helmet from "../assets/img/racehelmet.png";
+import rafayel from "../assets/img/rafayel.png";
 import { ExperimentCard } from "./ExperimentCard";
 import { ProjectCard2 } from "./ProjectCard2";
+
 
 export const Projects = () => {
 
@@ -73,14 +78,14 @@ export const Projects = () => {
 
   const experiments = [
   { id: "exp1", title: "Donut", description: "A rotating donut made with JavaScript", content:<Donut/> },
-  { id: "exp2", title: "Ruby", description: "A poster inspired by the album Ruby by Jennie", 
-    content: <img src={ruby} alt="Experiment 1" style={{ width: "100%", borderRadius: "8px" }} />},
-  { id: "exp3", title: "Contempt", description: "A digital art created using procreate",
-    content: <img src={contempt} alt="Experiment 2" style={{ width: "100%", borderRadius: "8px" }} />},
+  { id: "exp2", title: "Hamilton's Helmet", description: "A digital art inspired by F1 driver - Lewis Hamilton", 
+    content: <img src={helmet} alt="Experiment 1" style={{ width: "100%", borderRadius: "8px" }} />},
+  { id: "exp3", title: "Pierce", description: "An experiementation with rendering eyes",
+    content: <img src={rafayel} alt="Experiment 2" style={{ width: "100%", borderRadius: "8px" }} />},
   { id: "exp4", title: "At Peace", description: "A digital art inspired by Jujutsu Kaisen Anime",
     content: <img src={suguru} alt="Experiment 3" style={{ width: "100%", borderRadius: "8px" }} />},
-  { id: "exp5", title: "Touch of Light", description: "A digital art inspired by Jujutsu Kaisen Anime",
-    content: <img src={satoru} alt="Experiment 4" style={{ width: "100%", borderRadius: "8px" }} />
+  { id: "exp5", title: "Touch of Light", description: "An experimentation with muted colours",
+    content: <img src={chufei} alt="Experiment 4" style={{ width: "100%", borderRadius: "8px" }} />
   },
 ];
 
